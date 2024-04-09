@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 100px;
+    background-color: #393E46;
+}
+
+/* bagian navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #222831; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2; 
+    text-align: center;
+    padding: 18px 25px; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 12px;
+    
+}
+
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black; 
+}
+
+.navbar a.active {
+    background-color: #D65A31; 
+}
+/* akhir nav bar */
+
+/* banner style */
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(parts2.jpg);
+    background-size: cover;
+    background-position: 69%;
+    position: absolute;
+}
+
+.banner-teks{
+    padding-top: 100px;
+    margin-left: 50px;
+    font-family: We Are Survivors;
+    color: white;
+    position: relative;
+    ;
+    
+}
+
+.banner-teks h1{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner-teks{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-container{
+    margin-top: 25%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #EEEEEE;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.flex-container .judul{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #222831;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.flex-container .kotak-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.flex-container .kotak-container .kotak{
+   box-shadow: 0 5px 10px rgba(0,0,0,.2); 
+   border-radius: 5px;
+   background-color: white;
+   text-align: center;
+   padding: 30px 20px;
+}
+
+.flex-container .kotak-container .kotak img{
+ height: 200px;   
+}
+
+.flex-container .kotak-container .kotak h3{
+    color: #222831;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.flex-container .kotak-container .kotak p{
+    color: #222831;
+    font-size: 15px;
+    line-height: 1.8;
+
+}
+
+.flex-container .kotak-container .kotak .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #222831;
+    color: #EEEEEE;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.flex-container .kotak-container .kotak .btn:hover{
+   letter-spacing: 1px;
+   color: #D65A31;
+}
+
+.flex-container .kotak-container .kotak .btn:hover{
+    box-shadow: rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+footer{
+    font-size: 50px;
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 130;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: We Are Survivors;
+} 

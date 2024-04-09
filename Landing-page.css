@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bagian navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #222831; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2; 
+    text-align: center;
+    padding: 18px 25px; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 12px;
+    
+}
+
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black; 
+}
+
+.navbar a.active {
+    background-color: #D65A31; 
+}
+/* akhir nav bar */
+
+/* konten landing page */
+body {
+    background-image: url(rx82.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+}
+
+.wellcome{
+    font-family: We Are Survivors;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tombol{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D65A31;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer{
+    font-size: 50px;
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: We Are Survivors;
+} 
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Mengatur arah tata letak menjadi vertikal di mode mobile */
+    }
+
+    .item {
+        width: 100%; /* Mengisi lebar layar pada mode mobile */
+    }
+}
+
