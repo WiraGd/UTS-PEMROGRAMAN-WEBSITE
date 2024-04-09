@@ -76,13 +76,17 @@ body{
     text-align: center;
 }
 
-.tentang{
+.tentang .konten{
     margin-top: 25%;
     font-family:"Montserrat", sans-serif ;
+    color: white;
+    text-align: center
 }
 
-.tentang .konten{
-color: white;
-font-size: 20px;
-text-align: center;
+.tentang .konten .apa{
+    margin-bottom: 20px;
+}
+
+.tentang .konten .sejarah{
+    margin-top: 20px;
 }
