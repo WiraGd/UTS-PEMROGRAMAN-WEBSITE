@@ -53,22 +53,7 @@ body {
 
 
 
-.btn {
-    background-color: #4CAF50; /* Warna latar belakang */
-    border: none; /* Tanpa border */
-    color: white; /* Warna teks */
-    padding: 15px 32px; /* Padding atas dan bawah 15px, padding kanan dan kiri 32px */
-    text-align: center; /* Teks ditengah */
-    text-decoration: none; /* Tanpa dekorasi teks */
-    display: inline-block; /* Teks diperlakukan sebagai blok */
-    font-size: 16px; /* Ukuran teks */
-    margin: 10px; /* Jarak antara tombol dengan elemen lain */
-    cursor: pointer; /* Kursor menjadi pointer saat diarahkan */
-    border-radius: 8px; /* Border radius 8px */
-  }
-  .btn:hover {
-    background-color: #45a049; /* Warna latar belakang saat dihover */
-  }
+
 
 
 
