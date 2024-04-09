@@ -84,9 +84,14 @@ body{
 }
 
 .tentang .konten .apa{
-    margin-bottom: 20px;
+    margin-bottom: 65px;
 }
 
 .tentang .konten .sejarah{
-    margin-top: 20px;
+    margin-top: 65px;
 }
+
+.tentang .konten .visimisi{
+    margin-top: 65px;
+}
+
