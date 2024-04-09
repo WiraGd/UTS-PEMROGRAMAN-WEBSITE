@@ -51,7 +51,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
+
+
 .tombol{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 10px;
     display: inline-block;
     background: #222831;
@@ -60,6 +66,9 @@ body {
     border-radius: 5px;
     padding: 8px 25px;
 }
+
+
+
 
 footer{
     font-size: 50px;
