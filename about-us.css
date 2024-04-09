@@ -76,6 +76,73 @@ body{
     text-align: center;
 }
 
+.flex-container{
+    margin-top: 25%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #EEEEEE;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.flex-container .judul{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #222831;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.flex-container .kotak-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.flex-container .kotak-container .kotak{
+   box-shadow: 0 5px 10px rgba(0,0,0,.2); 
+   border-radius: 5px;
+   background-color: white;
+   text-align: center;
+   padding: 30px 20px;
+}
+
+.flex-container .kotak-container .kotak img{
+ height: 200px;   
+}
+
+.flex-container .kotak-container .kotak h3{
+    color: #222831;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.flex-container .kotak-container .kotak p{
+    color: #222831;
+    font-size: 15px;
+    line-height: 1.8;
+
+}
+
+.flex-container .kotak-container .kotak .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #222831;
+    color: #EEEEEE;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.flex-container .kotak-container .kotak .btn:hover{
+   letter-spacing: 1px;
+   color: #D65A31;
+}
+
+.flex-container .kotak-container .kotak .btn:hover{
+    box-shadow: rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
 
 footer{
     font-size: 50px;
