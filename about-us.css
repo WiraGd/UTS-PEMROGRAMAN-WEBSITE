@@ -1,4 +1,3 @@
-
 body{
     padding-bottom: 100px;
     background-color: #393E46;
@@ -30,44 +29,4 @@ body{
 
 .navbar a.active {
     background-color: #D65A31; 
-}
-/* akhir nav bar */
-
-/* banner style */
-.container{
-    width: 100%;
-    height: 100%;
-}
-
-.banner{
-    width: 100%;
-    height: 50vh;
-    background-image: url(carimage.jpg);
-    background-size: cover;
-    background-position: 69%;
-    position: absolute;
-}
-
-.banner-teks{
-    padding-top: 100px;
-    margin-left: 50px;
-    font-family: We Are Survivors;
-    color: white;
-    position: relative;
-    ;
-    
-}
-
-.banner-teks h1{
-    letter-spacing: 10px;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-}
-
-.banner-teks{
-    letter-spacing: 10px;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
 }
